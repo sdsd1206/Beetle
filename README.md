@@ -1,18 +1,18 @@
 # Beetle (學校專題)
 
 以直播為特色電商平台，由以五大區塊構成。
-> 登入頁面
-* 買家
-1. 賣場
-2. 購物車
-3. 直播
-4. 信箱
-5. 設定
-* 賣家
-1. 販售資料
-2. 直播
-3. 信箱
-4. 設定
+> 登入頁面 (login)
+* 買家 (buy_XXX)
+1. 賣場 (store)
+2. 購物車 (buycar)
+3. 直播 (live)
+4. 信箱 (mail_fragment)
+5. 設定 (yours)
+* 賣家 (sell_XXX)
+1. 販售資料 (selldata)
+2. 直播 (live)
+3. 信箱 (mail_fragment)
+4. 設定 (yours)
 ---
 
 第三方直播框架 ==> 在 third.txt
