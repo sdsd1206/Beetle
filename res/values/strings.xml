@@ -26,7 +26,7 @@
     <string name="title_activity_sss">sss</string>
 
     <!--fb-->
-    <string name="facebook_app_id">2418542688405002</string>
-    <string name="fb_login_protocol_scheme">fb2418542688405002</string>
+    <string name="facebook_app_id">**************</string>
+    <string name="fb_login_protocol_scheme">fb****************</string>
 
 </resources>
