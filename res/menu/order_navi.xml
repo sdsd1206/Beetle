@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_nstore"
+        android:title="一般賣場" />
+    <item
+        android:id="@+id/navigation_rlive"
+        android:title="競標直播" />
+    <item
+        android:id="@+id/navigation_nlive"
+        android:title="一般直播" />
+
+</menu>

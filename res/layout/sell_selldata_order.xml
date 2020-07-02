@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/order"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sell_selldata_order">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:minHeight="60dp" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/order_na"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navigation_height"
+        android:layout_marginTop="50dp"
+        app:menu="@menu/order_navi" />
+
+</FrameLayout>

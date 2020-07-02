@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/changedataback"
+    tools:context=".sell_selldata_order_itemdetail">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/toolbar"
+        android:minHeight="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/detail_sBar"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:background="@drawable/marketthings"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/item_seller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="XXX賣場"
+                    android:textSize="20sp"
+                    android:textColor="@color/darkblack"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+                    app:layout_constraintStart_toEndOf="@+id/imageView9"
+                    app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+                <!--<Button-->
+                <!--android:id="@+id/button19"-->
+                <!--android:layout_width="70dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:background="@drawable/marketfollow"-->
+                <!--app:layout_constraintBottom_toBottomOf="@+id/item_seller"-->
+                <!--app:layout_constraintEnd_toStartOf="@+id/button20"-->
+                <!--app:layout_constraintTop_toTopOf="@+id/item_seller" />-->
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="57dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/marketchat"
+                    app:layout_constraintBottom_toBottomOf="@+id/item_seller"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/item_seller"
+                    app:layout_constraintVertical_bias="0.451" />
+
+                <!--<Button-->
+                <!--android:id="@+id/button23"-->
+                <!--android:layout_width="175dp"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:background="@drawable/marketcar"-->
+                <!--app:layout_constraintEnd_toStartOf="@+id/button24"-->
+                <!--app:layout_constraintHorizontal_bias="0.5"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/imageView9" />-->
+
+                <!--<Button-->
+                <!--android:id="@+id/button24"-->
+                <!--android:layout_width="175dp"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:background="@drawable/marketbuy"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintHorizontal_bias="0.5"-->
+                <!--app:layout_constraintStart_toEndOf="@+id/button23"-->
+                <!--app:layout_constraintTop_toTopOf="@+id/button23" />-->
+            </android.support.constraint.ConstraintLayout>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="2dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="貨源證明（請點開查看）"
+                android:textColor="@color/fui_linkColor"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_detail_tx"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/darkblack"
+                android:background="@drawable/marketblank"
+                android:textSize="22sp"
+                android:text="暫時(資訊)" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="gen_black">#000</color>
+    <color name="nav_submenubackground">#f4f4f4</color>
+
+
+    <color name="toolbar">#9DC3C1</color>
+    <color name="background">#F0E5DE</color>
+    <color name="navigation">#77AF9C</color>
+    <color name="listview">#FFFFFF</color>
+
+    <color name="chat">#FFFFFF</color>
+    <color name="darkblack">#000000</color>
+
+    <color name="top">#EC7357</color>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="navigation_height">60dp</dimen>
+    <dimen name="navigation_framesize">580dp</dimen>
+    <dimen name="hot_list1">345dp</dimen>
+    <dimen name="hot_list1_hight">115dp</dimen>
+    <dimen name="hot_list2_width">198dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="layouthight" >580dp</dimen>
+    <dimen name="orderFrag_margin">116dp</dimen>
+</resources>

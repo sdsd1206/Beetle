@@ -1,0 +1,5 @@
+1.liveRtmpPushSDK(推流)
+https://github.com/runner365/android_rtmppush_sdk
+
+2.vitamio(拉流框架)
+https://github.com/yixia/VitamioBundle
